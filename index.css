@@ -1,0 +1,72 @@
+@media screen and (min-width:800px) {
+    body{
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0;
+    height: 200vh;
+    width: 100vw;
+    background-color: #f6f6f6;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+}
+
+.body{
+    padding-top: 1rem;
+    background-color: white;
+    flex-basis: 60vw;
+}
+
+#header{
+    height: 15vh;
+    /* background-color: ed; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.tab{
+    /* background-color: blue; */
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: black;
+    font-family: 'EB Garamond', serif;
+}
+
+#name{
+    font-family: 'Hind', sans-serif;
+    /* background-color: brown; */
+    font-size: 8rem;
+    color: #008381;
+    margin-bottom: -2.75rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#photo{
+    height: 50vh;
+    /* background-color: red; */
+}
+
+#photo > img{
+    display: block;
+    padding-top: 2.5vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45vh;
+    border-radius: 50%;
+}
+
+#intro_text{
+    padding-top: 2vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 2rem;
+    font-family: 'EB Garamond', serif;
+    /* background-color: red; */
+    height: 35vh;
+}
+
+ }
+
